@@ -1,0 +1,127 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #ff1493;
+    border-radius: 4px;
+}
+
+main {
+    max-width: 800px;
+    margin: 70px auto 20px;
+    padding: 20px;
+}
+
+.about-me {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-me h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    text-align: left;
+    max-width: 600px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.resume, .work-experience {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.resume h2, .work-experience h2 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.resume-link:hover {
+    background-color: #ff1493;
+}
+
+.experience {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    margin: 5px 0;
+}
+
